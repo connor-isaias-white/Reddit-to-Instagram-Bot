@@ -1,6 +1,6 @@
 # Reddit-Instagram repost bot
 
-## Reposts hot posts from any subreddit onto instagram_password
+## Reposts hot posts from any subreddit onto instagram
 
 ### How to use:
 * Download package from github
