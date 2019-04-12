@@ -1,4 +1,4 @@
-# Reddit-Instagram repost bot
+# Reddit to Instagram repost bot
 
 ## Reposts hot posts from any subreddit onto instagram
 
