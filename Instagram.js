@@ -7,8 +7,8 @@ var Client = require('instagram-private-api').V1;
 var device = new Client.Device(instagram_username);
 var storage = new Client.CookieFileStorage(__dirname + '/cookies/'+instagram_username+'.json');
 var fs = require('fs');
-var text = fs.readFileSync('Caption.txt','utf8')
-var text2 = fs.readFileSync('Caption2.txt','utf8')
+var text = fs.readFileSync('Memory/Caption.txt','utf8')
+var text2 = fs.readFileSync('Memory/Caption2.txt','utf8')
 var caption = text + text2
 
 // And go for login

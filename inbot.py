@@ -58,11 +58,11 @@ def run_bot(r, posts_found):
                 new_im.save(submission.title+".jpg", "JPEG")
                 hi = (submission.id + "\n")
                 # Adds to the list of posts found
-                with open("posts_found.txt", "a") as f:
+                with open("Memory/posts_found.txt", "a") as f:
                     f.write(hi)
-                with open("Caption.txt", "a") as f:
+                with open("Memory/Caption.txt", "a") as f:
                     f.write(submission.title)
-                with open("Caption2.txt", "a") as f:
+                with open("Memory/Caption2.txt", "a") as f:
                     f.write("\n-\nmirrored from a post on r/"+subreddits+" by           u/"+str(submission.author)+":\nhtpps://reddit.com/"+hi + "\n using a bot made by @connoriw :)\n"
                             " \n\n•\n•\n•\n•\n•\n•\n•\n•\n\n" + hashtags)
                 print("Saved post id")
@@ -87,13 +87,11 @@ def run_bot(r, posts_found):
 
 
 def get_saved_posts():
-    if not os.path.isfile("posts_found.txt"):
-        posts_found = []
-    else:
-        with open("posts_found.txt", "r") as f:
-            posts_found = f.read()
-            posts_found = posts_found.split("\n")
-            # print(posts_found)
+
+    with open("Memory/posts_found.txt", "r+") as f:
+        posts_found = f.read()
+        posts_found = posts_found.split("\n")
+        # print(posts_found)
 
     return posts_found
 
@@ -103,8 +101,8 @@ r = bot_login()
 run_number = 1
 while True:
     # clears captions
-    open("Caption.txt", 'w').close()
-    open("Caption2.txt", 'w').close()
+    open("Memory/Caption.txt", 'w').close()
+    open("Memory/Caption2.txt", 'w').close()
     posts_found = get_saved_posts()
     run_bot(r, posts_found)
     print("Run number: "+str(run_number))

@@ -1,5 +1,0 @@
-praw (pip install praw)
-PIL (pip install Pillow)
-Naked.toolshed.shell (pip install Naked)
-nodejs (https://nodejs.org/en/)
-instagram-private-api (npm install instagram-private-api)
