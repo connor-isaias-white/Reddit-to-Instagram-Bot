@@ -15,11 +15,11 @@
 If you have any questions feel free to ask and fill free to add stuff as it is open source
 
 ### requirements
-praw 'pip install praw'
-PIL 'pip install Pillow'
-Naked.toolshed.shell 'pip install Naked'
-nodejs [Download here](https://nodejs.org/en/ "Download nodejs")
-instagram-private-api 'npm install instagram-private-api'
+* praw 'pip install praw'
+* PIL 'pip install Pillow'
+* Naked.toolshed.shell 'pip install Naked'
+* nodejs [Download here](https://nodejs.org/en/ "Download nodejs")
+* instagram-private-api 'npm install instagram-private-api'
 
 
 ### ToDo:
