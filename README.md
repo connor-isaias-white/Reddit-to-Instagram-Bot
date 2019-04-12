@@ -3,7 +3,7 @@
 ## Reposts hot posts from any subreddit onto instagram_password
 
 ### How to use:
-* Download package from git
+* Download package from github
 * Install all the requirements (see below)
 * Fill in your Reddit username, password, client_id, client_secret on inbot.py (line 16-19) if you don't have a client_id click [here](https://ssl.reddit.com/prefs/apps/ "Set up bot")
 * Fill in the subreddit you want to post to, the amount of posts per day and the hashtags on inbot.py (line 9-11)
