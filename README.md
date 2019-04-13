@@ -19,7 +19,7 @@ If you have any questions feel free to ask and fill free to add stuff as it is o
 * PIL 'pip install Pillow'
 * Naked.toolshed.shell 'pip install Naked'
 * nodejs [Download here](https://nodejs.org/en/ "Download nodejs")
-* instagram-private-api 'npm install instagram-private-api'
+* [instagram-private-api](https://github.com/dilame/instagram-private-api "link to instagram-private-api") 'npm install instagram-private-api' 
 
 
 ### ToDo:
