@@ -63,7 +63,7 @@ def run_bot(r, posts_found):
                 with open("Memory/Caption.txt", "a") as f:
                     f.write(submission.title)
                 with open("Memory/Caption2.txt", "a") as f:
-                    f.write("\n-\nmirrored from a post on r/"+subreddits+" by           u/"+str(submission.author)+":\nhttps://reddit.com/"+hi + "\n using a bot made by @bot_dank_memes :)\n"
+                    f.write("\n-\nmirrored from a post on r/"+subreddits+" by           u/"+str(submission.author)+":\nhttps://redd.it/"+hi + "\n using a bot made by @bot_dank_memes :)\n"
                             " \n\n•\n•\n•\n•\n•\n•\n•\n•\n\n" + hashtags)
                 print("Saved post id")
                 print("---------------------------------------------------")
