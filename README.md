@@ -1,28 +1,30 @@
-# Reddit to Instagram repost bot
+# Reddit to Instagram bot
+This is a bot that takes the top posts of a subreddit and posts them to
+## Installation
+Clone or download then install requirements
 
-## Reposts hot posts from any subreddit onto instagram
+open a terminal and type:
+~~~~
+git clone https://github.com/connor-isaias-white/Reddit-to-Instagram-Bot.git
+cd Reddit-to-Instagram-Bot
+pip install -r requirements.txt
+~~~~
+or `pip3 install -r requirements.txt` if you use pip3
+## Setup
+Open config.py and fill out all the fields
 
-### How to use:
-* Download package from github
-* Install all the requirements (see below)
-* Fill in your Reddit username, password, client_id, client_secret on inbot.py (line 16-19) if you don't have a client_id click [here](https://ssl.reddit.com/prefs/apps/ "Set up bot")
-* Fill in the subreddit you want to post to, the amount of posts per day and the hashtags on inbot.py (line 9-11)
-* Fill in your instagram username and password on instagram.js (line 1-2)
-* Run by going to the directory instagrambot and typing 'python inbot.py'
-* Leave Running
+If you don't have a Reddit account you can make one [here](https://www.reddit.com/register "Sign up")
+and an Instagram account [here](https://www.instagram.com/accounts/emailsignup/?hl=en "Sign up")
 
+Then to create a client_id and client_secret go to https://www.reddit.com/prefs/apps and click create app, give it a name, select script and fill in remaining text boxes
+![example](/files/readmefiles/makeapp.png)
+This should give you a secret and a client id:
+![example](/files/readmefiles/ids.png)
+Use these to fill out config.py
+## Run
+To run the bot run `python main.py` or `python3 main.py` in the directory Reddit-to-Instagram-Bot and leave running.
 
-If you have any questions feel free to ask and fill free to add stuff as it is open source
+If you have any questions feel free to ask
 
-### requirements
-* praw 'pip install praw'
-* PIL 'pip install Pillow'
-* Naked.toolshed.shell 'pip install Naked'
-* nodejs [Download here](https://nodejs.org/en/ "Download nodejs")
-* [instagram-private-api](https://github.com/dilame/instagram-private-api "link to instagram-private-api") 'npm install instagram-private-api' 
-
-
-### ToDo:
-* Allow it to post gifs
-* Some reddit posts don't work, may be due to having dots and other characters in the title
-* Simplify process
+## To Do
+add support for gifs
