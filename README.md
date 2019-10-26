@@ -17,8 +17,10 @@ If you don't have a Reddit account you can make one [here](https://www.reddit.co
 and an Instagram account [here](https://www.instagram.com/accounts/emailsignup/?hl=en "Sign up")
 
 Then to create a client_id and client_secret go to https://www.reddit.com/prefs/apps and click create app, give it a name, select script and fill in remaining text boxes
+
 ![example](/files/readmefiles/makeapp.png)
 This should give you a secret and a client id:
+
 ![example](/files/readmefiles/ids.png)
 Use these to fill out config.py
 ## Run
